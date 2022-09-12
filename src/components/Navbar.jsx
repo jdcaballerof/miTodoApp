@@ -15,7 +15,7 @@ export const Navbar = () => {
         <br />
         <TabView>
 
-            <TabPanel header="Tareas">
+            <TabPanel header="Tareas" className='Tabview'>
             <TodoList todos={todos}  />
             </TabPanel>
 

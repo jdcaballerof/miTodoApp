@@ -10,7 +10,7 @@ export const TodoItem = ({ todo }) => {
     const [displayBasic, setDisplayBasic] = useState(false);
     const { onDeleteTodo, onToggleTodo } = useContext(TodoContext)
 
-    //! Con esta función al onClick dentro de una tarea se tacha dicha tarea y se cierra el recuadro (usada en line:23)
+    //* Con esta función al onClick dentro de una tarea se tacha dicha tarea y se cierra el recuadro (usada en line:23)
     const onToggleTodoInTodo = () => {
         onToggleTodo(todo.id)
         onHide('displayBasic')
@@ -45,7 +45,7 @@ export const TodoItem = ({ todo }) => {
 
   return (
     <div className="todo">
-        <Button  icon="pi pi-check" onClick={ () => onToggleTodo(todo.id) } autoFocus className="btn-check b-green" />
+        <Button  icon="pi pi-check" onClick={ () => onToggleTodo(todo.id) } autoFocus className={` ${todo.done ? "btn-check b-greenActive" : "btn-check b-green"} `} />
 
         <Button label={todo.titulo} onClick={() => onClick('displayBasic')} className="btn-todo b-blue" style={tacharTodo(todo.done)} />
         

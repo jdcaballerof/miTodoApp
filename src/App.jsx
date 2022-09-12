@@ -22,7 +22,7 @@ export const App = () => {
 
       <div className="subcontenedor1">
         <div className="AddTodo">
-        <h2>Añadir tarea</h2>
+          <h2>Añadir tarea</h2>
           <TodoAdd onNewTodo={onNewTodo} />
         </div>
 
