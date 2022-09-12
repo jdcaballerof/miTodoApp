@@ -1,0 +1,103 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 4em;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+}
+
+h2{
+    margin-left: 5px;
+}
+
+.contenedor{
+    padding: 10px;
+}
+.tabview-demo{
+    min-height: 250px;
+}
+
+footer{
+    background-color: rgba(30, 143, 255, 0.25);
+    padding: 5px 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+img{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.p-inputtext{
+    display: block;
+    margin: 10px 0;
+}
+
+.dialog-demo .p-button {
+    margin: 0 .5rem 0 0;
+    min-width: 10rem;
+}
+
+.dialog-demo p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.dialog-demo .p-dialog .p-button {
+    min-width: 6rem;
+}
+
+.boton-tarea {
+    width: 45vw;
+}
+               
+.btn-todo, .btn-borrar, .btn-check {
+    margin: 10px;
+}
+
+.b-rojoAll{
+    background-color: red;
+    border: none;
+    /* margin-left: 05vw; */
+    margin-bottom: 0;
+}
+.b-rojoAll:hover{
+    background-color: rgb(198, 0, 0) !important;
+}
+
+.b-rojo{
+    background-color: red;
+    border: none;
+}
+
+.b-rojo:hover{
+    background-color: rgb(198, 0, 0) !important;
+}
+
+.b-green{
+    background-color: yellowgreen;
+    border: none;
+}
+.b-green:hover{
+    background-color: chartreuse !important;
+}
+
+.b-blue:hover{
+    background-color: navy !important;
+}
